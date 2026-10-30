@@ -1,0 +1,31 @@
+{
+    "roofline": {
+        "cpu": "Intel Core i5-8279U",
+        "microarchitecture": "Coffee Lake",
+        "physical_cores": 4,
+        "cache_line_bytes": 64,
+        "arithmetic_intensity_estimate_flops_per_byte": 0.125,
+        "classification": "Memory-bound (estimated)",
+        "note": "Estimate based on stencil memory access pattern."
+    },
+    "weak_scaling": [
+        {
+            "processes": 1,
+            "scaled_N": 1472,
+            "time_seconds": 0.018731748999925912,
+            "checksum": 45.92354703260483
+        },
+        {
+            "processes": 2,
+            "scaled_N": 2082,
+            "time_seconds": 0.36796262200005003,
+            "checksum": 9.278075909609132
+        },
+        {
+            "processes": 4,
+            "scaled_N": 2944,
+            "time_seconds": 0.9452491659994848,
+            "checksum": -74.4535179839623
+        }
+    ]
+}

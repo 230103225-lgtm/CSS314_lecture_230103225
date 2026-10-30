@@ -1,0 +1,9 @@
+{
+    "student_id": "230103225",
+    "N": 1472,
+    "matrix_size": 736,
+    "ijk_median_seconds": 129.76039409099985,
+    "ikj_median_seconds": 155.5555281470006,
+    "speedup": 0.8341741089932578,
+    "results_match": true
+}
